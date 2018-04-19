@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['quizjam/base', 'plugin:vue/recommended'],
+  extends: ['plugin:vue/recommended'],
   rules: {
     'vue/require-default-prop': 0,
     'vue/attributes-order': 0,
@@ -12,9 +12,8 @@ module.exports = {
         attribute: 1,
         closeBracket: 0,
         alignAttributesVertically: true,
-        ignores: []
-      }
+        ignores: [],
+      },
     ],
   },
 };
-
